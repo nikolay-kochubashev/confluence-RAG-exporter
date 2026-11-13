@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+dist/
+build/
+*.spec
+
+# Authentication and local configuration
+*cookies*.txt
+*.cookie
+*.cookies
+.env
+.env.*
+settings.json
+config.local.json
+
+# Exported knowledge and assets
+output/
+exports/
+RAG/
+staging/
+assets/
+manifest.json
+*.pdf
+*.html
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
